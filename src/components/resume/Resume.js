@@ -43,7 +43,7 @@ const Resume = () => {
               skillData ? "border-designColor rounded-lg" : "border-transparent"
             } resumeLi`}
           >
-            Professional Skills
+            Skills
           </li>
           <li
             onClick={() =>
