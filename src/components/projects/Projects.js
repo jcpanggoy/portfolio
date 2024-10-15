@@ -1,7 +1,7 @@
-import React from 'react';
-import Title from '../layouts/Title';
+import React from "react";
+import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="Check Out My Works – I'd Love to Hear Your Feedback!"
           des="My Projects"
         />
       </div>
@@ -75,6 +75,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Projects;
