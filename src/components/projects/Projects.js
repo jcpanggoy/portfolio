@@ -1,6 +1,13 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -33,28 +40,28 @@ const Projects = () => {
         <ProjectsCard
           title="FIELDMATE"
           des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={projectTwo}
           githubLink="https://github.com/jcpanggoy/fieldmate.git"
           liveLink="https://drive.google.com/file/d/1S5UHVhiMjdi0_qwXPx-BsmxyOikxPddO/view?usp=sharing"
         />
         <ProjectsCard
-          title="KISLAP: Tagalog Programming Language"
+          title="KISLAP"
           des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          githubLink="https://github.com/your-username/kislap-tagalog-programming-language"
-          liveLink="https://kislap-tagalog-programming-language-live-link.com"
+          src={projectFour}
+          githubLink="https://github.com/jcpanggoy/kislap.git"
+          liveLink="https://drive.google.com/file/d/1tck9Y4TeY0ZdZyMeIpbITon_WKAJgN3M/view?usp=sharing"
         />
         <ProjectsCard
           title="MMCM IFO Booking System"
           des="An intuitive platform that streamlines resource requests and reservations, ensuring efficient management and real-time availability tracking within MMCM."
-          src={projectTwo}
-          githubLink="https://github.com/Lolillya/mcm_AppDev-bookingApp.git"
+          src={projectFive}
+          githubLink="https://github.com/jcpanggoy/ifo.git"
           liveLink="https://ifo-booking-system-live-link.com"
         />
         <ProjectsCard
-          title="Pizza Inventory System"
+          title="PizzaStop Inventory System"
           des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={projectSix}
           githubLink="https://github.com/your-username/pizza-inventory-system"
           liveLink="https://pizza-inventory-system-live-link.com"
         />

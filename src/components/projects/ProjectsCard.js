@@ -1,5 +1,5 @@
-import { BsGithub } from 'react-icons/bs';
-import { FaGlobe } from 'react-icons/fa';
+import { BsGithub } from "react-icons/bs";
+import { HiDocumentText } from "react-icons/hi"; // Import the document icon
 
 const ProjectsCard = ({ title, des, src, githubLink, liveLink }) => {
   return (
@@ -32,7 +32,7 @@ const ProjectsCard = ({ title, des, src, githubLink, liveLink }) => {
                 rel="noopener noreferrer"
                 className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
               >
-                <FaGlobe />
+                <HiDocumentText /> {/* Updated to document icon */}
               </a>
             </div>
           </div>
