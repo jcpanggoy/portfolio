@@ -16,10 +16,11 @@ const Experience = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Customer Care Support"
+            title="Technical Service Support"
             subTitle="Alorica (Dec 2023 - Mar 2024)"
             result="DVO PH"
-            des="Provided customer support for Google's technical account at Alorica Davao, ensuring high customer satisfaction."
+            des="Assisted 100+ Google clients per week with troubleshooting and resolving technical issues with Google Nest products."
+            des2="Managed customer cases via Connect Platform, achieving 20+ CSATs monthly and maintaining a 90% first-call resolution rate."
             link="https://drive.google.com/file/d/1ii8TcCmXaxZsB-cIFsAp-p31CaBGWm8l/view?usp=sharing"
           />
           {/* <ResumeCard
@@ -38,28 +39,33 @@ const Experience = () => {
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Leadership Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2021 - 2023</p>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Leadership Experience
+          </h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="External Vice-President"
-            subTitle="Mapúa Malayan Colleges Mindanao (2022 - 2023)"
+            subTitle="MMCM - Computing Students Society (2022 - 2023)"
             result="DVO PH"
-            des="Computing Student's Society &nbsp;|&nbsp; CCIS."
+            des="Led external activities for the organization."
+            des2="Conducted 3 workshops on Microsoft Office Suites for 20+ elementary school teachers to enhance their technological skills."
+            link="https://fb.watch/vhdmjxVV0J/"
           />
           <ResumeCard
             title="Community Extension Head"
-            subTitle="Mapúa Malayan Colleges Mindanao (2021 - 2022)"
+            subTitle="MMCM - Computing Students Society (2021 - 2022)"
             result="DVO PH"
-            des="Computing Student's Society &nbsp;|&nbsp; CCIS."
+            des="Spearheaded outreach programs during the pandemic."
+            link="https://www.facebook.com/CSS.MMCM"
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="School Teacher"
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>

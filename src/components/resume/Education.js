@@ -19,17 +19,18 @@ const Education = () => {
           {/* change to Diploma pic */}
           <ResumeCard
             title="Bachelor of Science in Computer Science"
-            subTitle="Mapúa Malayan Colleges Mindanao (2021 - 2024)"
+            subTitle="Mapúa Malayan Colleges Mindanao (2021 - Expected 2024)"
             result="DVO PH"
-            des="Offers world-class education, digital learning, and outcome-based education."
+            des="Consistently achieved President’s List status with a General Weighted Average (GWA) ranging from 1.25 to 1.05."
             link="https://mcm.edu.ph/about/world-class-mapua-education/"
           />
           {/* change to Diploma pic */}
           <ResumeCard
             title="Science, Technology, Engineering, and Mathematics (STEM)"
-            subTitle="San Pedro College Basic-Education Department (2019 - 2021)"
+            subTitle="San Pedro College (2019 - 2021)"
             result="DVO PH"
-            des="A leading autonomous Dominican learning community, offering internationally recognized programs."
+            des2="Consistently achieved With High Honor status with a General Weighted Average (GWA) ranging from 95 to 97."
+            des="Ranked 5 among 76 Grade 12 Students of Class 2020 - 2021"
             link="https://www.spcdavao.edu.ph/home/academics/"
           />
         </div>
