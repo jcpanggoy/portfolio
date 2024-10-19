@@ -21,7 +21,7 @@ import {
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Mobile App Developer.", "Full-Stack Developer."],
+    words: ["Web Developer", "Mobile App Developer", "Full-Stack Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
